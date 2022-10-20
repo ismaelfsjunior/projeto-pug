@@ -1,6 +1,24 @@
 doctype html  
 html(lang='pt-BR')  
- head
-    include pug/partials/_head.pug
- body
-    include pug/articles/_0001.pug
+   head
+      include pug/partials/_head.pug
+   body
+
+      .carousel.slide(data-bs-ride="carousel")
+         .carousel-inner
+            .carousel-item.active 
+               img.img-fluid(src="http://placekitten.com/640/280", alt="meow")
+            .carousel-item   
+               img.img-fluid(src="http://placekitten.com/640/180", alt="meow")
+            .carousel-item   
+               img.img-fluid(src="http://placekitten.com/640/380", alt="meow")
+
+      include pug/articles/_0001.pug
+
+      .container 
+         .row 
+            .col item 1
+            .col item 2
+            .col item 3
+
+      include pug/partials/_scripts.pug
