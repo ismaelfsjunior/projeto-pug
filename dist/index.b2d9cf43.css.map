@@ -1,0 +1,1 @@
+{"mappings":"ACAA;;;;AAGI;EAHJ;;;;;AAOI;EAPJ;;;;;AAYA","sources":["src/style.scss","src/scss/_base.scss","src/scss/_varibles.scss"],"sourcesContent":["@import 'scss/varibles';\r\n@import 'scss/base';",null,null],"names":[],"version":3,"file":"index.b2d9cf43.css.map","sourceRoot":"/__parcel_source_root/"}
